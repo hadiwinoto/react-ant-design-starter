@@ -36,10 +36,10 @@ import { Button, Menu } from 'antd';
 export default () => {
   const menuHeaderDropdown = (
     <Menu selectedKeys={[]}>
-      <Menu.Item key="center">个人中心</Menu.Item>
-      <Menu.Item key="settings">个人设置</Menu.Item>
+      <Menu.Item key="center">Canter</Menu.Item>
+      <Menu.Item key="settings">Settings</Menu.Item>
       <Menu.Divider />
-      <Menu.Item key="logout">退出登录</Menu.Item>
+      <Menu.Item key="logout">Logout</Menu.Item>
     </Menu>
   );
   return (

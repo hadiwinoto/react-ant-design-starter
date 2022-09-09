@@ -47,11 +47,9 @@ export async function getInitialState(): Promise<{
   };
 }
 
-// ProLayout 支持的api https://procomponents.ant.design/components/layout
-export const layout: RunTimeLayoutConfig = ({
-  initialState,
-  setInitialState,
-}) => {
+// ProLayout 支持的api htexport const layout: RunTimeLayoutConfig = ({
+  iexport const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) => {
+
   console.log(initialState?.settings);
   return {
     rightContentRender: () => <RightContent />,
@@ -68,7 +66,7 @@ export const layout: RunTimeLayoutConfig = ({
     },
     layoutBgImgList: [
       {
-        src: 'https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/D2LWSqNny4sAAAAAAAAAAAAAFl94AQBr',
+        src: https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/D2LWSqNny4sAAAAAAAAAAAAAFl94AQBrr',
         left: 85,
         bottom: 100,
         height: '303px',
@@ -80,7 +78,7 @@ export const layout: RunTimeLayoutConfig = ({
         height: '303px',
       },
       {
-        src: 'https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/F6vSTbj8KpYAAAAAAAAAAAAAFl94AQBr',
+        src: https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/F6vSTbj8KpYAAAAAAAAAAAAAFl94AQBrr',
         bottom: 0,
         left: 0,
         width: '331px',

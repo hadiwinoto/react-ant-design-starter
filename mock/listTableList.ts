@@ -13,8 +13,7 @@ const genList = (current: number, pageSize: number) => {
       disabled: i % 6 === 0,
       href: 'https://ant.design',
       avatar: [
-        'https://gw.alipayobjects.com/zos/rmsportal/eeHMaZBwmTvLdIwMfBpg.png',
-        'https://gw.alipayobjects.com/zos/rmsportal/udxAbMEhpwthVVcjLXik.png',
+        
       ][i % 2],
       name: `TradeCode ${index}`,
       owner: '曲丽丽',
